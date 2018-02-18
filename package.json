@@ -1,0 +1,22 @@
+{
+  "name": "arduino-smartrobot-obstacle",
+  "version": "0.0.1",
+  "description": "Arduino Smart Robot Car Kit V1.0 - Obstacle Avoidance",
+  "main": "obstacle.ino",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elgambet/arduino-smartrobot-obstacle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elgambet/arduino-smartrobot-obstacle/issues"
+  },
+  "homepage": "https://github.com/elgambet/arduino-smartrobot-obstacle#readme",
+  "author": "gambeita@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "arduino-drivelib": "git+https://github.com/elgambet/arduino-drivelib.git#npm-dependency",
+    "arduino-irremote": "git+https://github.com/elgambet/Arduino-IRremote.git#npm-dependency",
+    "arduino-eyelib": "git+https://github.com/elgambet/arduino-eyelib.git#npm-dependency"
+  }
+}
